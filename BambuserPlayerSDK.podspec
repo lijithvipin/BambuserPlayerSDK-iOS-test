@@ -10,10 +10,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '14.0'
   s.swift_version    = '5.9'
 
-  # Dependencies for Firebase modules
-  s.dependency 'Firebase/Firestore', '~> 11.0'
-  s.dependency 'Firebase/Auth', '~> 11.0'
-
   # Resource bundle for BambuserPlayerBundle
   s.resource_bundles = {
     'BambuserPlayerSDK_BambuserPlayerBundle' => [
