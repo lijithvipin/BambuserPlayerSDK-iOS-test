@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'BambuserPlayerSDKLijith'
+  s.name             = 'BambuserPlayerSDK'
   s.version          = '2.0.1'
   s.summary          = 'Bambuser Player SDK for iOS - Lijith'
   s.homepage         = 'https://github.com/bambuser/BambuserPlayerSDK-iOS'
