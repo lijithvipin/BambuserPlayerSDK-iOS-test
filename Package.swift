@@ -14,6 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
+        // Removed Flutter-related dependencies like Firebase
     ],
     targets: [
         .binaryTarget(
@@ -22,8 +23,7 @@ let package = Package(
         ),
         .target(
             name: "BambuserPlayerBundle",
-            dependencies: [
-            ],
+            dependencies: [],
             resources: [
                 .process("Resources/Localization/LocalizedStrings-English.json"),
             ]
