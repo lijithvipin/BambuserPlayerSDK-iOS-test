@@ -14,10 +14,6 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/firebase/firebase-ios-sdk.git",
-            from: "11.0.0"
-        ),
     ],
     targets: [
         .binaryTarget(
@@ -27,8 +23,6 @@ let package = Package(
         .target(
             name: "BambuserPlayerBundle",
             dependencies: [
-                .product(name: "FirebaseFirestore", package: "firebase-ios-sdk"),
-                .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
             ],
             resources: [
                 .process("Resources/Localization/LocalizedStrings-English.json"),
