@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/bambuser/BambuserPlayerSDK-iOS/'
   s.license          = { :type => 'Commercial', :text => 'Copyright 2024 Bambuser AB' }
   s.author           = { 'Bambuser' => 'support@bambuser.com' }
-  s.source           = { :git => 'https://github.com/bambuser/BambuserPlayerSDK-iOS.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/lijithvipin/BambuserPlayerSDK-iOS-test.git', :tag => s.version }
   s.vendored_frameworks = 'Sources/BambuserPlayerSDK.xcframework'
   s.platform         = :ios, '14.0'
   s.swift_version    = '5.9'
